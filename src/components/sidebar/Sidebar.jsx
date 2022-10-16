@@ -13,7 +13,9 @@ const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <section className={styles.top}>
-        <span className={styles.logo}><img src="/images/logo.png"/></span>
+        <span className={styles.logo}>
+          <img src="/images/logo.png" alt="Muskaan Foundation" />
+        </span>
       </section>
       <hr />
       <section className={styles.center}>
