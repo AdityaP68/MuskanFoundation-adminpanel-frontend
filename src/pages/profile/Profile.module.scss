@@ -1,4 +1,8 @@
-.container{
-    color: white;
-    background-color: purple;
+.profile{
+    display: flex;
+    width: 100%;
+    .profileContainer{
+        flex: 6;
+        background-color: #dcdcdc;
+    }
 }
