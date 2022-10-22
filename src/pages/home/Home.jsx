@@ -3,6 +3,7 @@ import Donut from "../../components/charts/donutChart/Donut";
 import Chart from "../../components/charts/lineChart/Chart";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
+import List from "../../components/table/Table";
 import Widget from "../../components/widget/Widget";
 import styles from "./Home.module.scss";
 
@@ -21,6 +22,12 @@ const Home = () => {
         <div className={styles.charts}>
           <Donut/>
           <Chart/>
+        </div>
+        <div className={styles.listContainer}> 
+            <div className={styles.listTitle}>
+              Latest Transactions
+            </div>
+            <List/>
         </div>
       </div>
     </div>
