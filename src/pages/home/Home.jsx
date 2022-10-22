@@ -27,7 +27,9 @@ const Home = () => {
             <div className={styles.listTitle}>
               Latest Transactions
             </div>
+            <div className={styles.listwrapper}>
             <List/>
+            </div>
         </div>
       </div>
     </div>

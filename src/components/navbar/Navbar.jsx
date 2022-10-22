@@ -5,7 +5,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 
 const Navbar = () => {
   return (
-    <navbar className={styles.navbar}>
+    <nav className={styles.navbar}>
       <div className={styles.wrapper}>
         <div className={styles.search}>
           <input type="text" placeholder="Search..." />
@@ -23,7 +23,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </navbar>
+    </nav>
   );
 };
 

@@ -1,0 +1,24 @@
+.datatable{
+    height: 90vh;
+    padding: 1rem;
+    background-color: #ffffff;
+    margin: 1rem;
+}
+
+.cellWithImage{
+    display: flex;
+    align-items: center;
+    // width: 35px;
+    // height: 35px;
+    // background-color: gray;
+    // border-radius: 50%;
+    
+    .cellImg{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+
+    }
+}

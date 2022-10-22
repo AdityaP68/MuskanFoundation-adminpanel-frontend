@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Login from './pages/login/Login'
 import Profile from './pages/profile/Profile'
 import ProfileList from './pages/profile-list/ProfileList'
+import TransactionList from './pages/transaction-list/TransactionList'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route index element = {<ProfileList/>}/>
             <Route path=':userId' element = {<Profile/>}/>
           </Route>
+          <Route path = 'transactions' element={<TransactionList/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

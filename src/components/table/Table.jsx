@@ -25,8 +25,8 @@ const List = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {dataRow.map((row) => (
-            <TableRow key={row.id}>
+          {dataRow.data.map((row, idx) => (
+            <TableRow key={idx}>
               <TableCell>{row.id}</TableCell>
               {/* <TableCell className={styles.tableCell}>{row.id}</TableCell> */}
               <TableCell className={styles.tableCell}>{row.amount}</TableCell>
