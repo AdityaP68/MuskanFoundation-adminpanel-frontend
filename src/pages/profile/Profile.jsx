@@ -1,5 +1,4 @@
 import React from "react";
-import Donut from "../../components/charts/donutChart/Donut";
 import Chart from "../../components/charts/lineChart/Chart";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";

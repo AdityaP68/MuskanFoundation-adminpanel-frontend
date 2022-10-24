@@ -3,6 +3,8 @@ import styles from "./Navbar.module.scss";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 
+let url = "https://manofmany.com/wp-content/uploads/2019/04/David-Gandy.jpg";
+
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
@@ -18,7 +20,7 @@ const Navbar = () => {
           </div>
           <div className={styles.item}>
             <div className={styles.imgContainer}>
-              {/* <img src="" alt='text'/> */}
+            <img src={url} alt="avatar" className={styles.itemImg} />
             </div>
           </div>
         </div>

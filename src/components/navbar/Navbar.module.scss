@@ -54,6 +54,12 @@
           width: 28px;
           border-radius: 50%;
           background-color: rgb(143, 143, 143);
+          img{
+            height: 28px;
+            width: 28px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
         }
       }
     }

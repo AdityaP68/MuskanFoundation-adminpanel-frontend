@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Donut.module.scss";
-import { Pie, PieChart, Legend } from "recharts";
+import { Pie, PieChart, Legend, Cell } from "recharts";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 const Donut = () => {
@@ -42,8 +42,10 @@ const Donut = () => {
               dataKey="amount"
               outerRadius={150}
               innerRadius={100}
-              fill="green"
+              fill="#8884d8"
             />
+            <Cell key='1' fill={'#00C49F'} />
+            <Cell key='2' fill={'#000000'} />
           </PieChart>
         </div>
       </div>
